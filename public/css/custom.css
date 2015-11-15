@@ -1,0 +1,89 @@
+header {
+    padding: 18px;
+}
+
+hr {
+    height: 2px;
+    background-color:navy;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 96%;
+}
+
+#content {
+    padding-top: 18px;
+}
+
+.page-item {
+    border: solid 2px;
+    border-color: navy;
+    border-radius: 15px;
+    overflow: auto;
+    font-size: large;
+    padding: 15px;
+}
+
+.page-item img {
+    float: left;
+    padding: 10px;
+}
+
+.page-item p {
+    padding: 10px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h1, h2, h4 {
+    color: #761c19;
+}
+
+@media (min-width: 768px) {  .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+@media (min-width: 768px) {
+    /* uncomment if you would like the menu to be fixed */
+    /* .navbar {
+        position: fixed;
+        width: 170px;
+        z-index: 2;
+    } */
+}
+@media (min-width: 992px) {
+    .navbar {
+        width: 212px;
+
+    }
+
+    #content {
+        padding-top: 18px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        width: 262px;
+    }
+}
+.sidebar-nav .navbar-header{ float: none; }
